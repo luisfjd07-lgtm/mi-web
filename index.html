@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Tienda online de productos de calidad">
+
+    <meta
+        name="author"
+        content="Mi Página Web">
+
+    <title>Mi Página Web | Tienda Online</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         ENCABEZADO
+         ===================================================== -->
+
+    <header class="encabezado">
+
+        <div class="contenedor encabezado-contenido">
+
+            <!-- LOGO -->
+            <div class="logo">
+
+                <a
+                    href="#inicio"
+                    aria-label="Ir al inicio">
+
+                    <h1>Mi Página Web</h1>
+
+                    <p>Tu tienda online</p>
+
+                </a>
+
+            </div>
+
+
+            <!-- BOTÓN MENÚ MÓVIL -->
+            <button
+                id="botonMenu"
+                class="boton-menu"
+                type="button"
+                aria-label="Abrir menú"
+                aria-expanded="false">
+
+                ☰
+
+            </button>
+
+
+            <!-- MENÚ DE NAVEGACIÓN -->
+            <nav
+                id="menuPrincipal"
+                class="menu"
+                aria-label="Navegación principal">
+
+                <ul>
+
+                    <li>
+                        <a href="#inicio">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#nosotros">
+                            ¿Quiénes somos?
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#productos">
+                            Productos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#sucursales">
+                            Sucursales
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contacto">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <!-- BOTÓN MODO OSCURO -->
+            <button
+                id="modoOscuro"
+                class="boton-tema"
+                type="button"
+                aria-label="Activar modo oscuro"
+                title="Cambiar tema">
+
+                🌙
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         CONTENIDO PRINCIPAL
+         ===================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             INICIO / HERO
+             ================================================= -->
+
+        <section
+            id="inicio"
+            class="hero"
+            aria-labelledby="titulo-principal">
+
+            <div class="contenedor hero-contenido">
+
+
+                <!-- TEXTO PRINCIPAL -->
+                <div class="hero-texto animar-scroll">
+
+                    <span class="etiqueta">
+                        COMERCIO ELECTRÓNICO
+                    </span>
+
+                    <h2 id="titulo-principal">
+
+                        Bienvenidos a nuestra
+
+                        <span>
+                            tienda online
+                        </span>
+
+                    </h2>
+
+                    <p>
+                        Descubre nuestros productos y disfruta
+                        de una experiencia de compra rápida,
+                        segura y sencilla.
+                    </p>
+
+                    <a
+                        href="#productos"
+                        class="boton-principal">
+
+                        Ver productos
+
+                    </a>
+
+                </div>
+
+
+                <!-- IMAGEN PRINCIPAL -->
+                <div class="hero-imagen animar-scroll">
+
+                    <img
+                        src="imagen1.png"
+                        alt="Productos disponibles en nuestra tienda"
+                        loading="eager">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             NOSOTROS
+             ================================================= -->
+
+        <section
+            id="nosotros"
+            class="seccion"
+            aria-labelledby="titulo-nosotros">
+
+            <div class="contenedor">
+
+                <h2 id="titulo-nosotros">
+                    ¿Quiénes somos?
+                </h2>
+
+                <p class="texto-centro">
+
+                    Somos una empresa dedicada al comercio
+                    electrónico, comprometida con ofrecer
+                    productos de calidad y una excelente
+                    experiencia de compra.
+
+                </p>
+
+
+                <!-- TARJETAS -->
+
+                <div class="tarjetas">
+
+
+                    <!-- MISIÓN -->
+
+                    <article class="tarjeta animar-scroll">
+
+                        <div
+                            class="icono"
+                            aria-hidden="true">
+
+                            🎯
+
+                        </div>
+
+                        <h3>
+                            Misión
+                        </h3>
+
+                        <p>
+
+                            Ofrecer productos y servicios
+                            de calidad, satisfaciendo las
+                            necesidades de nuestros clientes.
+
+                        </p>
+
+                    </article>
+
+
+                    <!-- VISIÓN -->
+
+                    <article class="tarjeta animar-scroll">
+
+                        <div
+                            class="icono"
+                            aria-hidden="true">
+
+                            👁️
+
+                        </div>
+
+                        <h3>
+                            Visión
+                        </h3>
+
+                        <p>
+
+                            Ser una tienda online reconocida
+                            por nuestra innovación, calidad
+                            y confianza.
+
+                        </p>
+
+                    </article>
+
+
+                    <!-- VALORES -->
+
+                    <article class="tarjeta animar-scroll">
+
+                        <div
+                            class="icono"
+                            aria-hidden="true">
+
+                            ⭐
+
+                        </div>
+
+                        <h3>
+                            Valores
+                        </h3>
+
+                        <p>
+
+                            Trabajamos con responsabilidad,
+                            honestidad, innovación y compromiso.
+
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PRODUCTOS
+             ================================================= -->
+
+        <section
+            id="productos"
+            class="seccion productos"
+            aria-labelledby="titulo-productos">
+
+            <div class="contenedor">
+
+                <h2 id="titulo-productos">
+                    Nuestros productos
+                </h2>
+
+
+                <!-- GRID DE PRODUCTOS -->
+
+                <div class="productos-grid">
+
+
+                    <!-- =====================================
+                         PRODUCTO 1
+                         ===================================== -->
+
+                    <article class="producto animar-scroll">
+
+                        <div class="producto-imagen">
+
+                            <img
+                                src="imagen2.png"
+                                alt="Producto 1"
+                                loading="lazy">
+
+                        </div>
+
+
+                        <div class="producto-contenido">
+
+                            <h3>
+                                Producto 1
+                            </h3>
+
+                            <p>
+
+                                Producto de excelente calidad
+                                para nuestros clientes.
+
+                            </p>
+
+                            <span class="precio">
+                                S/ 59.90
+                            </span>
+
+
+                            <button
+                                class="boton-producto"
+                                type="button"
+                                data-producto="Producto 1"
+                                data-precio="59.90">
+
+                                🛒 Agregar al carrito
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- =====================================
+                         PRODUCTO 2
+                         ===================================== -->
+
+                    <article class="producto animar-scroll">
+
+                        <div class="producto-imagen">
+
+                            <img
+                                src="imagen3.png"
+                                alt="Producto 2"
+                                loading="lazy">
+
+                        </div>
+
+
+                        <div class="producto-contenido">
+
+                            <h3>
+                                Producto 2
+                            </h3>
+
+                            <p>
+
+                                Una excelente opción para
+                                satisfacer tus necesidades.
+
+                            </p>
+
+                            <span class="precio">
+                                S/ 79.90
+                            </span>
+
+
+                            <button
+                                class="boton-producto"
+                                type="button"
+                                data-producto="Producto 2"
+                                data-precio="79.90">
+
+                                🛒 Agregar al carrito
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- =====================================
+                         PRODUCTO 3
+                         ===================================== -->
+
+                    <article class="producto animar-scroll">
+
+                        <div class="producto-imagen">
+
+                            <img
+                                src="imagen4.jpg"
+                                alt="Producto 3"
+                                loading="lazy">
+
+                        </div>
+
+
+                        <div class="producto-contenido">
+
+                            <h3>
+                                Producto 3
+                            </h3>
+
+                            <p>
+
+                                Calidad, confianza y buen
+                                precio en un solo producto.
+
+                            </p>
+
+                            <span class="precio">
+                                S/ 99.90
+                            </span>
+
+
+                            <button
+                                class="boton-producto"
+                                type="button"
+                                data-producto="Producto 3"
+                                data-precio="99.90">
+
+                                🛒 Agregar al carrito
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     CARRITO
+                     ================================================= -->
+
+                <div
+                    id="carrito"
+                    class="carrito animar-scroll"
+                    aria-live="polite">
+
+                    <h3>
+                        🛒 Carrito de compras
+                    </h3>
+
+
+                    <p>
+
+                        Productos seleccionados:
+
+                        <strong id="cantidadCarrito">
+                            0
+                        </strong>
+
+                    </p>
+
+
+                    <p>
+
+                        Total:
+
+                        <strong id="totalCarrito">
+                            S/ 0.00
+                        </strong>
+
+                    </p>
+
+
+                    <button
+                        id="vaciarCarrito"
+                        class="boton-secundario"
+                        type="button">
+
+                        Vaciar carrito
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             SUCURSALES
+             ================================================= -->
+
+        <section
+            id="sucursales"
+            class="seccion"
+            aria-labelledby="titulo-sucursales">
+
+            <div class="contenedor">
+
+                <h2 id="titulo-sucursales">
+                    Nuestras sucursales
+                </h2>
+
+
+                <div class="sucursales">
+
+
+                    <!-- LIMA -->
+
+                    <article class="sucursal animar-scroll">
+
+                        <span
+                            class="sucursal-icono"
+                            aria-hidden="true">
+
+                            📍
+
+                        </span>
+
+                        <h3>
+                            Lima
+                        </h3>
+
+                        <p>
+                            Av. Principal 123
+                        </p>
+
+                        <p>
+                            Teléfono: 999 999 999
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- MIRAFLORES -->
+
+                    <article class="sucursal animar-scroll">
+
+                        <span
+                            class="sucursal-icono"
+                            aria-hidden="true">
+
+                            📍
+
+                        </span>
+
+                        <h3>
+                            Miraflores
+                        </h3>
+
+                        <p>
+                            Av. Larco 456
+                        </p>
+
+                        <p>
+                            Teléfono: 988 888 888
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- SAN ISIDRO -->
+
+                    <article class="sucursal animar-scroll">
+
+                        <span
+                            class="sucursal-icono"
+                            aria-hidden="true">
+
+                            📍
+
+                        </span>
+
+                        <h3>
+                            San Isidro
+                        </h3>
+
+                        <p>
+                            Av. Central 789
+                        </p>
+
+                        <p>
+                            Teléfono: 977 777 777
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CONTACTO
+             ================================================= -->
+
+        <section
+            id="contacto"
+            class="seccion contacto"
+            aria-labelledby="titulo-contacto">
+
+            <div class="contenedor">
+
+                <h2 id="titulo-contacto">
+                    Contáctenos
+                </h2>
+
+
+                <form
+                                <!-- ENCUESTA -->
+
+                <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScMulAqDB-POxlTi7hXS_7dOYQ-CcGItR9POM3uHiOU3mmRkw/viewform?usp=publish-editor"
+                    target="_blank"
+                    class="boton-principal">
+
+                    📝 Realizar encuesta
+
+                </a>
+                    id="formularioContacto"
+                    novalidate>
+
+
+                    <!-- NOMBRE -->
+
+                    <div class="campo">
+
+                        <label for="nombre">
+                            Nombre completo
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Ingrese su nombre"
+                            autocomplete="name"
+                            minlength="3"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- CORREO -->
+
+                    <div class="campo">
+
+                        <label for="email">
+                            Correo electrónico
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="ejemplo@correo.com"
+                            autocomplete="email"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- MENSAJE -->
+
+                    <div class="campo">
+
+                        <label for="mensaje">
+                            Mensaje
+                        </label>
+
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            rows="5"
+                            placeholder="Escriba su mensaje"
+                            required>
+                        </textarea>
+
+                    </div>
+
+
+
+                    <!-- BOTÓN -->
+
+                    <button
+                        type="submit"
+                        class="boton-principal">
+
+                        Enviar mensaje
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         PIE DE PÁGINA
+         ===================================================== -->
+
+    <footer class="footer">
+
+        <p>
+            © 2026 Mi Página Web.
+            Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         ===================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
